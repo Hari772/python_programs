@@ -1,0 +1,16 @@
+f=open("Hari.txt","r")
+#r1=f.read()
+
+#print("Using read function\n")
+#print(r1)
+#r2=f.readline()
+#print("Using readline function\n")
+#print(r2)
+#r4=f.readline()
+#print("Using readline function\n")
+#print(r4)
+print("Using readlines function\n")
+r3=f.readlines()
+print(r3)
+f.close()
+#when ever you open a file  we havto  close it 

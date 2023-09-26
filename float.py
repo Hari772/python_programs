@@ -1,0 +1,10 @@
+#float representation in python
+a=int(input("Enter The Integer :"))
+b=float(input("Enter the float:"))
+print(a)
+print("%.1f"%b)
+print("%.2f"%b)
+print("%.3f"%b)
+print("%.4f"%b)
+print("%.5f"%b)
+print("%.6f"%b)
